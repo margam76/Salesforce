@@ -28,7 +28,9 @@
               <apex:pageBlockSectionItem >
               <apex:inputField value="{!TraineeStudent__c.Student_Phone__c}"/>
               </apex:pageBlockSectionItem>   
-                         
+
+
+
          
           <apex:pageBlockSectionItem >
               <apex:outputLabel value="Course Name"/>
