@@ -1,0 +1,8 @@
+import { LightningElement,track } from 'lwc';
+
+export default class LWCHello extends LightningElement {
+    @track greetings;
+    handleGreetingChanges(event){
+        this.greetings = event.target.value;
+    }
+}

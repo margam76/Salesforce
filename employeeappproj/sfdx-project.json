@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "employeeapp",
+      "default": true
+    }
+  ],
+  "name": "employeeappproj",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "54.0"
+}

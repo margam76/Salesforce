@@ -1,0 +1,49 @@
+<apex:page standardController="TraineeStudent__c" tabStyle="TraineeStudent__c" >
+    <apex:form >
+        <apex:pageBlock >
+          <apex:pageBlockButtons >
+           <apex:commandButton value="SAVE" action="{!save}"/>
+            <apex:commandButton value="CANCEL" action="{!cancel}"/>
+          
+          </apex:pageBlockButtons>
+          <apex:pageBlockSection >
+              <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Student Name"/>
+              </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+              <apex:inputField value="{!TraineeStudent__c.Student_Name__c}"/>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Qualification"/>
+              </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+              <apex:inputField value="{!TraineeStudent__c.Qualification__c}"/>
+              </apex:pageBlockSectionItem>
+                                  
+              
+              <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Phone Number"/>
+              </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+              <apex:inputField value="{!TraineeStudent__c.Student_Phone__c}"/>
+              </apex:pageBlockSectionItem>   
+                         
+         
+          <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Course Name"/>
+              </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+              <apex:inputField value="{!TraineeStudent__c.Course_Name__c}"/>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Trainer"/>
+              </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+              <apex:inputField value="{!TraineeStudent__c.Trainer__c}"/>
+              </apex:pageBlockSectionItem>
+           </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
